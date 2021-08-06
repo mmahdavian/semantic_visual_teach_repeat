@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+
+<node pkg="semantic_visual_teach_repeat" type="map.py" name="map" output="screen"/> 
+<node pkg="semantic_visual_teach_repeat" type="orb_obj.py" name="orb_obj" output="screen"/>
+<node pkg="semantic_visual_teach_repeat" type="visualizer" name="visual" />
+<node pkg="rviz" type="rviz" name="show_visual" />
+
+</launch>
