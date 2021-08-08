@@ -10,4 +10,7 @@ In order to use this package you need to have ORB-SLAM installed with some chang
 If you want to use your own Yolo model you need to modify "semantic_mapping/map.py" code. In gotdata function there are three variables named big_objs,medium_objs and small_objs. They specify general size of each class of objects detected by Yolo. For example Sofa is a big objects and banana is a small one. So based on your model and class numbers change the code.
 
 3.You need to use darknet_ros package to publish detected objects by Yolo model to ROS. For this purpose you can use following link:
+https://github.com/mmahdavian/darknet_ros
+
+
 
