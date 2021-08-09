@@ -35,7 +35,7 @@ Robot Path:
 Generated Semantic Map:
 ![unnamed2](https://user-images.githubusercontent.com/65621717/128658289-673ac3b3-e8f9-4334-9599-c0c830390878.png)
 
- <img src="https://user-images.githubusercontent.com/65621717/128658273-ac4e7831-72a4-4453-a9cf-dff4f7153ab0.jpg" width="50" height="50">
+ <img src="https://user-images.githubusercontent.com/65621717/128658273-ac4e7831-72a4-4453-a9cf-dff4f7153ab0.jpg" width="1000" height="1000">
 
 4. In order to repeat the same motion, first you need to change the name of the generated map and path file from:
 projection.csv to C1.csv and obj_map.csv to M1.csv
