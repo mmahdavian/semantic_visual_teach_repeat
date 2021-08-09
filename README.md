@@ -28,6 +28,15 @@ Then move the downloaded model file to darknet_ros/darknet_ros/yolo_network_conf
 rosrun ORB_SLAM3 Mono Vocabulary/ORBvoc.txt "your camera yaml file"
 3. roslaunch semantic_visual_teach_repeat create_map.launch
 Then you need to move the camera which will be your teach path and the (Visual Teach and Repeat)VTR algorithm will generate a semantic map of the environment for you as teach map.
+
+Robot Path:
+![20210416_155518_3](https://user-images.githubusercontent.com/65621717/128658273-ac4e7831-72a4-4453-a9cf-dff4f7153ab0.jpg)
+
+Generated Semantic Map:
+![unnamed2](https://user-images.githubusercontent.com/65621717/128658289-673ac3b3-e8f9-4334-9599-c0c830390878.png)
+
+
+
 4. In order to repeat the same motion, first you need to change the name of the generated map and path file from:
 projection.csv to C1.csv and obj_map.csv to M1.csv
 5. At repeat time you need to do step 1 to 3 first. Then after some motion, when you have at least two objects in your semantic map:
