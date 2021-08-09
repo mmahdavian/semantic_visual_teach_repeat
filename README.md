@@ -30,10 +30,12 @@ rosrun ORB_SLAM3 Mono Vocabulary/ORBvoc.txt "your camera yaml file"
 Then you need to move the camera which will be your teach path and the (Visual Teach and Repeat)VTR algorithm will generate a semantic map of the environment for you as teach map.
 
 Robot Path:
- <img src="https://user-images.githubusercontent.com/65621717/128658273-ac4e7831-72a4-4453-a9cf-dff4f7153ab0.jpg" width="800" height="800">
+
+ <img src="https://user-images.githubusercontent.com/65621717/128658273-ac4e7831-72a4-4453-a9cf-dff4f7153ab0.jpg" width="500" height="500">
 
 Generated Semantic Map:
- <img src="https://user-images.githubusercontent.com/65621717/128658289-673ac3b3-e8f9-4334-9599-c0c830390878.png" width="800" height="800">
+
+ <img src="https://user-images.githubusercontent.com/65621717/128658289-673ac3b3-e8f9-4334-9599-c0c830390878.png" width="500" height="500">
 
 
 4. In order to repeat the same motion, first you need to change the name of the generated map and path file from:
