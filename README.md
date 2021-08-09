@@ -3,6 +3,8 @@ This is a robotic package for a semantic mapping based algorithm for visual teac
 
 In order to use this package you need to have ORB-SLAM installed with some changes. So first:
 
+## Installation
+
 1. Clone and install https://github.com/mmahdavian/ORB_SLAM3
 I have used ZED2 camera and you can file 
 3. You need a YOLOv3 model to detect objects in the environment. We have provided a trained model file you can use. It has been trained on 24 most common objects in the environment. Those objects are: person,bench,backpack,umbrella,handbag,suitcase,bottle,cup,bowl,banana,apple,chair,couch,bed,tv,laptop,mouse,remote,keyboard,microwave,oven,toaster,sink,clock
@@ -18,13 +20,20 @@ Then move the downloaded model file to darknet_ros/darknet_ros/yolo_network_conf
 4. In your catkin_ws/src open a terminal and: git clone https://github.com/mmahdavian/semantic_visual_teach_repeat.git
 5. cd ../
 6. catkin_make
-7. roslaunch darknet_ros yolo_v3.launch
-8. Then run ORB-SLAM using:
+
+## Testing
+
+1. roslaunch darknet_ros yolo_v3.launch
+2. Then run ORB-SLAM using:
 rosrun ORB_SLAM3 Mono Vocabulary/ORBvoc.txt "your camera yaml file"
-9. roslaunch semantic_visual_teach_repeat create_map.launch
-
+3. roslaunch semantic_visual_teach_repeat create_map.launch
 Then you need to move the camera which will be your teach path and the (Visual Teach and Repeat)VTR algorithm will generate a semantic map of the environment for you as teach map.
-10. In order to repeat the same motion, first you need to change the name of the generated map and path file from:
+4. In order to repeat the same motion, first you need to change the name of the generated map and path file from:
 projection.csv to C1.csv and obj_map.csv to M1.csv
+5. At repeat time you need to do step 1 to 3 first. Then after some motion, when you have at least two objects in your semantic map:
+cd semantic_visual_teach_repeat/Repeat
+python3 relocalization.py
 
+Then robot will be relocalized to a new location.
+python3 forward.py or python3 backward.py can move a turtlenot robot toward the teach path and repeat in forward/backward direction.
 
