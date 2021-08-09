@@ -35,7 +35,7 @@ Robot Path:
 
 Generated Semantic Map:
 
- <img src="https://user-images.githubusercontent.com/65621717/128658289-673ac3b3-e8f9-4334-9599-c0c830390878.png" width="500" height="500">
+ <img src="https://user-images.githubusercontent.com/65621717/128658289-673ac3b3-e8f9-4334-9599-c0c830390878.png" width="600" height="500">
 
 
 4. In order to repeat the same motion, first you need to change the name of the generated map and path file from:
