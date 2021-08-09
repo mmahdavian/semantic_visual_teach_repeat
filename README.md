@@ -31,7 +31,7 @@ Then you need to move the camera which will be your teach path and the (Visual T
 
 Robot Path:
 
- <img src="https://user-images.githubusercontent.com/65621717/128658273-ac4e7831-72a4-4453-a9cf-dff4f7153ab0.jpg" width="500" height="500">
+ <img src="https://user-images.githubusercontent.com/65621717/128658273-ac4e7831-72a4-4453-a9cf-dff4f7153ab0.jpg" width="700" height="500">
 
 Generated Semantic Map:
 
