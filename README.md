@@ -7,8 +7,7 @@ In order to use this package you need to have ORB-SLAM installed with some chang
 
 1. Clone and install https://github.com/mmahdavian/ORB_SLAM3
 
-I have used ZED2 camera and you can file 
-
+I have used ZED2 camera and you can use this file: https://drive.google.com/file/d/1pnH8I0jPJyFRbS0umJ-sP9qohCG2cBOJ/view?usp=sharing 
 2. You need a YOLOv3 model to detect objects in the environment. We have provided a trained model file you can use. It has been trained on 24 most common objects in the environment. Those objects are: person,bench,backpack,umbrella,handbag,suitcase,bottle,cup,bowl,banana,apple,chair,couch,bed,tv,laptop,mouse,remote,keyboard,microwave,oven,toaster,sink,clock
 https://drive.google.com/file/d/1S49rcLiUPrg4bG95tJpmsuYaCCiGi_Of/view?usp=sharing
 
