@@ -53,7 +53,7 @@ Then robot will be relocalized to a new location.
 
 ## Video
 You can find a video from the our visual teach and repeat algorithm performance here:
-https://www.youtube.com/watch?v=raRT7S9NSfc&t=26s
+https://www.youtube.com/watch?v=raRT7S9NSfc&t
 
 ## License and Refrence
 This package is released under BSD-3-Clause License.
