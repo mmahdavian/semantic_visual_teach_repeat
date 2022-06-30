@@ -1,5 +1,5 @@
 # semantic_visual_teach_repeat
-This is the code for [Robust Visual Teach and Repeat for UGVs Using 3D Semantic Maps](https://arxiv.org/pdf/2109.10445.pdf). It includes a robotic package for a semantic mapping based algorithm for visual teach and repeat
+This is the repo for the paper [Robust Visual Teach and Repeat for UGVs Using 3D Semantic Maps](https://arxiv.org/pdf/2109.10445.pdf). It includes a robotic package for a semantic mapping based algorithm for visual teach and repeat
 
 ## Installation
 In order to use this package you need to have ORB-SLAM installed with some changes. So first:
